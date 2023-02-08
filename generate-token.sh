@@ -2,7 +2,7 @@
 
 set -e
 
-while [[ $# -gt 0 ]]
+while test $# -gt 0
 do
 key="$1"
 
